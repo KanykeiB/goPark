@@ -16,7 +16,7 @@ const SwiperBlock = () => {
     <div className='partners-block-wrap'>
       <div className='partners-block'>
         <span className='partner-line'/>
-        <h2 className="partners-header-text">Партнеры</h2>
+        <h2 className="partners-header-text">{t("partners")}</h2>
       </div>
       <Swiper
         modules={[Navigation, A11y]}

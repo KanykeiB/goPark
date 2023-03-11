@@ -7,7 +7,7 @@ import { Link, useHistory } from 'react-router-dom';
 import RemoveRedEyeSharpIcon from '@mui/icons-material/RemoveRedEyeSharp';
 import VisibilityOffSharpIcon from '@mui/icons-material/VisibilityOffSharp';
 import { useDispatch} from 'react-redux';
-// import authOpertions from '../../redux/thunk/thunk'
+import authOpertions from '../../redux/thunk/thunk'
 
 const SignupSchema = yup.object({
     email: yup.string()
@@ -27,7 +27,7 @@ const SignupSchema = yup.object({
 const SignUp = () => {
     const dispatch = useDispatch()
     const router = useHistory()
-    // const { authRegisterUser, authLoginUser } = authOpertions
+    const { authRegisterUser, authLoginUser } = authOpertions
     const [visibility, setVisibility] = useState(false);
     const handleVisibility = () => {
         setVisibility(!visibility)
@@ -44,11 +44,11 @@ const SignUp = () => {
             resolver: yupResolver(SignupSchema)
         });
     const onSubmit = async (data) => {
-        
+        // console.log(data)
         try{
-            // await dispatch(authRegisterUser(data))
+            await dispatch(authRegisterUser(data))
             // await dispatch(authLoginUser(data))
-            router.push('/')
+            // router.push('/')
             console.log(data)
         } catch(err){
             console.log(err) 
@@ -104,9 +104,6 @@ const SignUp = () => {
                         className={visibility2 ? styles.eyeVisible : styles.eyeNotVisible }
                         onClick={handleVisibility2}
                          />
-                </div>
-                <div className={styles.alreadyHaveAccount}> 
-                    <p>Уже есть аккаунт? <Link to="/sign-in">Войти</Link></p>
                 </div>
                 <button
                 type="submit"

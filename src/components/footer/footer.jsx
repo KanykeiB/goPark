@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import './style.css'
 
 const Footer = () => {
@@ -15,9 +16,9 @@ const Footer = () => {
               <a className='social-links email-icon' href="/"></a>
             </div>
           <div className="page-navigations">
-              <a className='page-links' href="/">{t("about")}</a>
-              <a className='page-links' href="/">{t("news")}</a>
-              <a className='page-links' href="/">{t("contact")}</a>
+              <Link className='page-links' to="/about">{t("about")}</Link>
+              <Link className='page-links' to="/news">{t("news")}</Link>
+              <Link className='page-links' to="/contact">{t("contact")}</Link>
             </div>
           <a href="/" className="head-icon-for-footer"></a>
           <span className="footer-description">

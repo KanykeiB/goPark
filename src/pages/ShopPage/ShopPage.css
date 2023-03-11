@@ -1,0 +1,120 @@
+.shop-title {
+    margin-top: 50px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #fff;
+    border-left: 3px solid #EF9637;
+    padding-left: 10px;
+}
+
+.shop-card-wrap-top {
+    display: flex;
+}
+
+.shop-card-wrap-down {
+    display: flex;
+    margin-bottom: 78px;
+}
+
+.shop-card {
+    margin: 70px 60px 0px 0px;
+    width: 374px;
+}
+
+.card-header {
+    width: 375px;
+    margin-top: 38px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 37px;
+    color: #fff;
+}
+
+.card-text {
+    margin-top: 11px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+
+.card-price {
+    margin-top: 18px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.card-img-first {
+    background: url(../../shared/img/card-1.png) center center/cover no-repeat;
+    width: 378px;
+    height: 441px;
+}
+
+.card-img-second {
+    background: url(../../shared/img/card-2.png) center center/cover no-repeat;
+    width: 378px;
+    height: 441px; 
+}
+
+.card-img-third {
+    background: url(../../shared/img/card-3.png) center center/cover no-repeat;
+    width: 378px;
+    height: 441px;
+}
+
+.card-img-fourth {
+    background: url(../../shared/img/card-4.png) center center/cover no-repeat;
+    width: 378px;
+    height: 441px;
+}
+
+.card-img-fifth {
+    background: url(../../shared/img/card-5.png) center center/cover no-repeat;
+    width: 378px;
+    height: 441px;
+}
+
+.buy-btn {
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 17px 0 0;
+    padding: 15px 25px;
+    background: #70A4D7;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.trash-btn {
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 17px 0 0;
+    padding: 15px 25px;
+    background: #70A4D7;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-btn:hover, .trash-btn:hover {
+    background: #9FB8CF;
+    transition: all 0.3s ease-in-out;
+}

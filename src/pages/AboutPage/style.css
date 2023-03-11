@@ -1,9 +1,11 @@
 .head-section {
-    background: url("../../shared/img/Background-of-about-page.jpg") center center/cover no-repeat;
+    /* background: url("../../shared/img/Background-of-about-page.jpg") center center/cover no-repeat; */
     height: 600px;
-    margin-top: -107px;
+    /*margin-top: -107px;*/
 
 }
+
+
 
 .about-us-text {
     font-family: Montserrat Alternates;
@@ -13,6 +15,8 @@
     color: #FFFFFF;
     width: 870px;
     padding-top: 140px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #E85D04;
 }
 
 .about-us-description {
@@ -87,9 +91,6 @@
     font-size: 20px;
     line-height: 35px;
     color: white;
-}
-
-.interesting-section {
 }
 
 .interesting-header {

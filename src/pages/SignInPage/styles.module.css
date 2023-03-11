@@ -1,0 +1,106 @@
+.section {
+    /* position: relative; */
+    width: 100%;
+    display: block;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+.toggle_text {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-left: 100px ;
+}
+
+.checkbox:checked,
+label,
+.checkbox:not(:checked),
+label {
+    position: relative;
+    cursor: pointer;
+    width: 60px;
+    background-color: #ffeba7;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.checkbox:checked,
+label:before,
+.checkbox:not(:checked),
+label:before {
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #70A4D7;
+    font-family: sans-serif;
+    content: "<->" ;
+    z-index: 20;
+    top: -13px;
+    left: -15px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkbox:checked +
+label:before {
+    transform: translateX(44px) rotate(0deg);
+}
+
+.card_3d_wrap {
+    width: 900px;
+    max-width: 100%;
+    height: 1500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    margin: 0px auto;
+}
+
+.card_3d_wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: all 600ms ease-out;
+}
+
+.card_front,
+.card_back {
+    width: 100%;
+    height: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    position: absolute;
+    border-radius: 6px;
+    left: 0;
+    top: 0;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card_back {
+    transform: rotateY(180deg);
+}
+
+.checkbox:checked~.card_3d_wrap .card_3d_wrapper {
+    transform: rotateY(180deg);
+}

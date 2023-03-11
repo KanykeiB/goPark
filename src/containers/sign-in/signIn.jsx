@@ -70,14 +70,7 @@ const SignIn = () => {
                     />
 
                 </div>
-                <div  className={styles.bottomText}>
-                    <p>
-                        Еще не зарегистрированы?
-                    </p>
-                    <p>
-                        <Link to='/sign-up'>Создать аккаунт</Link>
-                    </p>
-                </div>
+
 
 
                 <button

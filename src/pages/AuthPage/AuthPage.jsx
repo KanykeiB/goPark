@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SignIn from '../../containers/sign-in/signIn';
 import SignUp from '../../containers/sign-up/signUp';
 import styles from './styles.module.css';
@@ -9,8 +10,8 @@ const AuthPage = () => {
             <div className={styles.section}>
                 <div className={styles.container}>
                     <div className={styles.toggle_text}>
-                        <div className={styles.toggle_login}>Войти</div>
-                        <div className={styles.toggle_register}>Регистрация</div>
+                        <div className={styles.toggle_login}><Link to='/sign-in'>Войти </Link></div>
+                        <div className={styles.toggle_register}><Link to='/sign-up'> Регистрация</Link></div>
                     </div>
                     <div className="row full-height justify-content-center">
                         <div className="col-12 text-center align-self-center py-5">

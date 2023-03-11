@@ -66,10 +66,10 @@ const Nav_menu_list = () => {
         <div className="header-content-block">
             <div className="content-menu">
                 <span onMouseOver={openGal} onMouseOut={closeGal} className="content-item" >{t("exhibitions")}</span>
-                <span onMouseOver={openTour} onMouseOut={closeTour} className="tournament-text">{t("tournaments")}</span>
+                <span onMouseOver={openTour} onMouseOut={closeTour} className="content-item">{t("tournaments")}</span>
                 <span className="dot"></span>
                 <span onMouseOver={openLess} onMouseOut={closLess} className="content-item">{t("lectures")}</span>
-                <span onMouseOver={openClean} onMouseOut={closeClean} className="content-item">{t("cleanup")}</span>
+                <span onMouseOver={openClean} onMouseOut={closeClean} className="content-item width-word">{t("cleanup")}</span>
                 <span onMouseOver={openSport} onMouseOut={closeSport} className='content-item'>{t("sport")}</span>
                 <span className="dot"></span>
                 <span onMouseOver={openKids} onMouseOut={closeKids} className="content-item">{t("forkids")}</span>

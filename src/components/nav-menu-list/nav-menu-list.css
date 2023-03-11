@@ -12,8 +12,42 @@
     font-size: 40px;
     line-height: 49px;
     text-transform: uppercase;
-    color: #000000;
+    color: #fff;
     cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.content-item:nth-child(1):hover {
+    color: #E85D04;
+    transition: all 200ms ease-in-out;
+}
+.content-item:nth-child(2):hover {
+    color: #E39ACD;
+    transition: all 200ms ease-in-out;
+}
+.content-item:nth-child(4):hover {
+    color: #70A4D7;
+    transition: all 200ms ease-in-out;
+}
+.content-item:nth-child(5):hover {
+    color: #E85D04;
+    transition: all 200ms ease-in-out;
+}
+.content-item:nth-child(6):hover {
+    color: #E39ACD;
+    transition: all 200ms ease-in-out;
+}
+.content-item:nth-child(8):hover {
+    color: #70A4D7;
+    transition: all 200ms ease-in-out;
+}
+.content-item:nth-child(9):hover {
+    color: #E85D04;
+    transition: all 200ms ease-in-out;
+}
+
+.width-word {
+    width: 320px;
 }
 
 .tournament-text {
@@ -79,54 +113,63 @@
 .content-img {
     width: 500px;
     height: 350px;
+    width: 500px;
+    height:350px;
     transition: all 1000ms ease-in-out;
 }
 
 .gallery {
     background: url("../../shared/img/galery.png") center center/cover no-repeat;
-    width: 600px;
-    height:430px ;
+    margin-top: 40px;
+    width: 500px;
+    height:275px;
     border-radius: 20px;
 }
 
 .tournament {
     background: url("../../shared/img/Tournament.png") center center/cover no-repeat;
+    margin-top: 40px;
     width: 500px;
-    height: 350px;
+    height:275px;
     border-radius: 20px;
 }
 
 .lessons {
     background: url("../../shared/img/Lessons.png") center center/cover no-repeat;
+    margin-top: 40px;
     width: 500px;
-    height: 350px;
+    height:275px;
     border-radius: 20px;
 }
 
 .cleaning {
     background: url("../../shared/img/Cleaning.png") center center/cover no-repeat;
+    margin-top: 40px;
     width: 500px;
-    height: 350px;
+    height:275px;
     border-radius: 20px;
 }
 
 .sport {
     background: url("../../shared/img/sport.png") center center/cover no-repeat;
+    margin-top: 40px;
     width: 500px;
-    height: 350px;
+    height:275px;
     border-radius: 20px;
 }
 
 .for-kids {
     background: url("../../shared/img/ForKids.png") center center/cover no-repeat;
+    margin-top: 40px;
     width: 500px;
-    height: 350px;
+    height:275px;
     border-radius: 20px;
 }
 
 .excursion {
     background: url("../../shared/img/excurses.png") center center/cover no-repeat;
+    margin-top: 40px;
     width: 500px;
-    height: 350px;
+    height:275px;
     border-radius: 20px;
 }

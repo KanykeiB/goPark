@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.nav-item {
+.nav-item-asd {
     font-family: 'Montserrat Alternates';
     margin-right: 46px;
     font-weight: 600;
@@ -34,8 +34,8 @@
     border: none;
 }
 
-.nav-item:hover {
-    border-bottom: 3px solid #E39ACD;
+.nav-item-asd:hover {
+    text-decoration: 3px underline #E39ACD;
 }
 
 .down-icon {
@@ -128,4 +128,14 @@
 
 .toggle-wrap{
     padding-right: 15px;
+}
+.theme-icon {
+    background: url(../../shared/icons/theme_white.svg) center center/cover no-repeat;
+    width: 27px;
+    height: 26px;
+    margin-right: 24px;
+}
+
+button:focus {
+    outline: none;
 }
