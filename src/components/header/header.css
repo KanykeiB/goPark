@@ -5,6 +5,7 @@
     background: rgba(0, 0, 0, 0);
 }
 
+
 .logo-img {
     display: block;
     background: var(--default-svg);
@@ -25,7 +26,7 @@
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
-    color: var(--default-color);
+    color: var(--default-color); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +61,9 @@
     color: #ffffff;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
+}
+.login-button-none{
+    display: none;
 }
 
 .login-button:hover {
@@ -126,9 +130,11 @@
     border-radius: 10px;
 }
 
-.toggle-wrap{
+.toggle-wrap {
     padding-right: 15px;
 }
+
+
 .theme-icon {
     background: url(../../shared/icons/theme_white.svg) center center/cover no-repeat;
     width: 27px;

@@ -44,11 +44,12 @@ const SignUp = () => {
             resolver: yupResolver(SignupSchema)
         });
     const onSubmit = async (data) => {
+        const transformData = Object.assign(data,{"point": 0})
         // console.log(data)
         try{
-            await dispatch(authRegisterUser(data))
-            // await dispatch(authLoginUser(data))
-            // router.push('/')
+            await dispatch(authRegisterUser(transformData))
+            await dispatch(authLoginUser(data))
+            router.push('/')
             console.log(data)
         } catch(err){
             console.log(err) 

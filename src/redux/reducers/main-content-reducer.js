@@ -1,6 +1,10 @@
 import {GET_EVENT, GET_EVENT_BY_ID} from "../types/types";
 
-const initialState = []
+const initialState = {
+    loading: false,
+    error: null,
+    data: {},
+}
 
 const contentReducers = (state = initialState, action) => {
     switch (action.type) {
@@ -8,7 +12,6 @@ const contentReducers = (state = initialState, action) => {
             return {
                 ...state,
                 loading: true,
-                error:null
             }
         case GET_EVENT.RECEIVE:
             return {
@@ -19,7 +22,7 @@ const contentReducers = (state = initialState, action) => {
         case GET_EVENT.FAILURE:
             return {
                 ...state,
-                loading:false,
+                loading: false,
                 error: action.payload
             }
         case GET_EVENT_BY_ID.REQUEST:
@@ -29,8 +32,8 @@ const contentReducers = (state = initialState, action) => {
         case GET_EVENT_BY_ID.RECEIVE:
             return {
                 ...state,
-                loading:false,
-                data:action.payload
+                loading: false,
+                data: action.payload
             }
         case GET_EVENT_BY_ID.FAILURE:
             return {

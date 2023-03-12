@@ -9,7 +9,7 @@
 }
 
 :root {
-    --ligth: #Ffffff;
+    --ligth: #FCEEDE;;
     --black: #7B7B7B;
     --default-back: var(#{--ligth});
    

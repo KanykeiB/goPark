@@ -14,8 +14,8 @@ const SignUpPage = () => {
                         <div className={styles.toggle_login}><Link to='/sign-in'>Войти </Link></div>
                         <div className={styles.toggle_register}><Link to='/sign-up'> Регистрация</Link></div>
                     </div>
-                    <div className="row full-height justify-content-center">
-                        <div className="col-12 text-center align-self-center py-5">
+                    <div className={styles.row}>
+                        <div className={styles.wrap} >
                             <div className="section pb-5 pt-sm-2 text-center">
                                 <input className={styles.checkbox_signUp} type="checkbox" id="reg-log" name="reg-log" />
                                 <label className={styles.checkbox_label} htmlFor="reg-log"></label>

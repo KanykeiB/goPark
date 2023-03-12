@@ -11,3 +11,5 @@ export const eventListItem = (state) => state.events.data;
 
 export const loadingUser = (state) => state.user.loading;
 export const userData = (state) => state.user.user;
+
+export const filterEvent =(state)=> state.filterEvent

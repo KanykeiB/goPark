@@ -19,7 +19,7 @@ const Footer = () => {
               <a className='page-links' href="/news">{t("news")}</a>
               <a className='page-links' href="/contact">{t("contact")}</a>
             </div>
-          <a href="/" className="head-icon-for-footer"></a>
+          <Link to="/" className="head-icon-for-footer"></Link>
           <span className="footer-description">
             {t("organization")}
           </span>

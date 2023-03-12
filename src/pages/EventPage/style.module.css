@@ -1,0 +1,101 @@
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+.main_content_block {
+    margin-top: 50px;
+}
+.content_block {
+    display: flex;
+    gap: 20px;
+}
+.title {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #EF9637;
+    max-width: 510px;
+    margin-bottom: 30px;
+    color: black var(--default-color);
+}
+.content {
+    color: black var(--default-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+.date_location {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 56px;
+    margin-bottom: 20px;
+}
+.date_block {
+    display: flex;
+    gap: 12px;
+}
+.date_icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../../shared/icons/date.svg");
+}
+.date_text {
+    color: #B7B7B7;
+}
+.location_block {
+    display: flex;
+    gap: 12px;
+}
+.location_icon {
+    display: block;
+    width: 15px;
+    height: 18px;
+    background: url("../../shared/icons/location.svg") center center/cover no-repeat;
+}
+.location_text {
+    font-size: 15px;
+    line-height: 18px;
+    color: #B7B7B7;
+}
+.creators_title  {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    border-left: 3px solid #E85D04;
+    color: black var(--default-color);
+    padding-left: 5px;
+    margin-bottom: 54px;
+}
+.creators {
+    margin-bottom: 84px;
+}
+.swiper_block {
+    width: 295px;
+    height: 340px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 0px 10px;
+}
+
+.swiper_image_block{
+    width: 131px;
+    height: 150px;
+    margin: 30px 81px;
+    background: url("../../shared/icons/Codify.png") center center/contain no-repeat;
+}
+.button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 43px;
+}
+.send_form {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px;
+    background: #E85D04;
+    border-radius: 30px;
+    color: white;
+}

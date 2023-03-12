@@ -12,7 +12,11 @@
     font-size: 40px;
     line-height: 49px;
     text-transform: uppercase;
+<<<<<<< HEAD
     color: var(--default-color);
+=======
+    color: var(--default-color); 
+>>>>>>> origin
     cursor: pointer;
     transition: all 200ms ease-in-out;
 }

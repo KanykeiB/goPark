@@ -1,4 +1,4 @@
-import {AUTH_LOGIN, AUTH_LOGOUT, AUTH_REGISTER, GET_CREATOR_BY_ID, GET_EVENT, GET_EVENT_BY_ID, GET_USER} from "../types/types";
+import {AUTH_LOGIN, AUTH_LOGOUT, AUTH_REGISTER, FILTER_EVENT, GET_CREATOR_BY_ID, GET_EVENT, GET_EVENT_BY_ID, GET_USER} from "../types/types";
 
 const getEventRequestActionCreator = () => ({
     type: GET_EVENT.REQUEST
@@ -91,6 +91,13 @@ const authRegisterErrorActionCreator = (err) => ({
 
 const authLogoutActionCreator = () => ({
     type: AUTH_LOGOUT
+})
+
+//---
+//----
+const filterEventActionCreator = (filter) => ({
+    type: FILTER_EVENT,
+    payload: filter
 })
 
 export {

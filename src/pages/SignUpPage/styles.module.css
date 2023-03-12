@@ -7,6 +7,21 @@
 .full-height {
     min-height: 100vh;
 }
+.row{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center!important;
+    display: flex;
+}
+.wrap{
+    flex: 0 0 100%;
+    max-width: 100%;
+    align-self: center!important;
+    text-align: center!important;
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;
+}
 
 .toggle_text {
     display: flex;
@@ -17,11 +32,15 @@
     font-size: 30px;
     padding-left: 100px ;
 }
+.toggle_text a{
+    color: #FFFFFF;
+}
 
 .checkbox_signUp:checked,
 .checkbox_label,
 .checkbox_signUp:not(:checked),
 .checkbox_label {
+    display: inline-block;
     position: relative;
     cursor: pointer;
     width: 60px;
@@ -95,6 +114,7 @@
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
+    margin-top: 20px ;
 }
 
 .card_back {
