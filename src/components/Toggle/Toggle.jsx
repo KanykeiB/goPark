@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react'
 import Sun from '@iconscout/react-unicons/icons/uil-sun'
 import Moon from '@iconscout/react-unicons/icons/uil-moon'
 const Toggle = () => {
-    const [theme, setTheme ] = useState(true)
+    const [theme, setTheme ] = useState(false)
     const style = document.querySelector(":root")
     
     useEffect(() => {
@@ -25,9 +25,7 @@ const Toggle = () => {
         <div className="test">
         <Moon onClick={() => handleClick()}/>
         <Sun onClick={() => handleClick()}/>
-        {/* <Moon onClick={() => handleClick(false)}/> */}
-        {/* <Sun onClick={() => handleClick(true)}/> */}
-        <div className={theme ? "r-button" : 't-button'} /> 
+        <div className={theme ? "t-button" : 'r-button'} /> 
             
         </div>
     </div>
