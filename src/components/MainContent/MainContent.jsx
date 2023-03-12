@@ -25,10 +25,9 @@ const MainContent = () => {
     const event = useSelector(eventList)
     const eventLoading = useSelector(eventLoader)
     const dispatch = useDispatch()
-    const {getEventListener} = eventOperation
+    const {getEventListener} = eventOperations
     const {t} = useTranslation()
     const filterEventState = useSelector(filterEvent)
-    const {getEventListener} = eventOperations
 
     console.log(event, 'event')
 

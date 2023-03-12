@@ -49,9 +49,6 @@ const Header = () => {
                     <div className="toggle-wrap">
                         <Toggle/>
                     </div>
-<<<<<<< HEAD
-                    <Link to="/user" className="login-button">
-=======
                     <Link to="/forms" className={isAuth ? "login-button-none" : "login-button"}>
 
                         {/* Войти */}
@@ -61,7 +58,6 @@ const Header = () => {
                         <span className="user-icon"></span>
                     </Link>
                     <Link to="/user" className={isAuth ? "login-button" : "login-button-none"}>
->>>>>>> origin
                         Личный кабинет
                         <span className="user-icon"></span>
                     </Link>
