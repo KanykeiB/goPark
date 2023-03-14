@@ -24,7 +24,6 @@ const SwiperBlock = () => {
         slidesPerView={4}
         navigation
         pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
         // onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>

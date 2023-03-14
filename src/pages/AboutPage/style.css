@@ -12,7 +12,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
-    color: #FFFFFF;
+    color: var(--default-color); 
     width: 870px;
     padding-top: 140px;
     padding-bottom: 10px;
@@ -24,7 +24,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: var(--default-color); 
     margin-top: 100px;
 }
 
@@ -40,7 +40,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 35px;
-    color: white;
+    color: var(--default-color); 
     width: 525px;
     margin-bottom: 166px;
 }
@@ -78,7 +78,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: white;
+    color: var(--default-color); 
     margin-bottom: 38px;
 }
 
@@ -90,7 +90,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 35px;
-    color: white;
+    color: var(--default-color); 
 }
 
 .interesting-header {
@@ -98,7 +98,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
-    color: white;
+    color: var(--default-color); 
     margin-top: 112px;
 }
 
@@ -107,7 +107,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 35px;
-    color: white;
+    color: var(--default-color); 
     max-width: 525px;
     margin: 41px 0px 260px;
 }

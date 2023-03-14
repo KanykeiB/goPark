@@ -7,7 +7,21 @@
 .full-height {
     min-height: 100vh;
 }
-
+.row{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center!important;
+    display: flex;
+}
+.wrap{
+    flex: 0 0 100%;
+    max-width: 100%;
+    align-self: center!important;
+    text-align: center!important;
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;
+}
 .toggle_text {
     display: flex;
     width: 900px;
@@ -17,11 +31,14 @@
     font-size: 30px;
     padding-left: 100px ;
 }
-
+.toggle_text a{
+    color: #FFFFFF;
+}
 .checkbox:checked,
 label,
 .checkbox:not(:checked),
 label {
+    display: inline-block;
     position: relative;
     cursor: pointer;
     width: 60px;
@@ -95,6 +112,7 @@ label:before {
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
+    margin-top: 20px ;
 }
 
 .card_back {

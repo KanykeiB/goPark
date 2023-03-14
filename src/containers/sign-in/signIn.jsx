@@ -7,7 +7,7 @@ import { Link, useHistory } from 'react-router-dom';
 import RemoveRedEyeSharpIcon from '@mui/icons-material/RemoveRedEyeSharp';
 import VisibilityOffSharpIcon from '@mui/icons-material/VisibilityOffSharp';
 import { useDispatch, useSelector } from 'react-redux';
-// import authLoginOperations from '../../redux/thunk/thunk'
+import authLoginOperations from '../../redux/thunk/thunk'
 
 const SignupSchema = yup.object({
     username: yup.string()
@@ -20,7 +20,7 @@ const SignIn = () => {
     const dispatch = useDispatch()
     const router = useHistory()
     const [visibility, setVisibility] = useState(false);
-    // const { authLoginUser } = authLoginOperations
+    const { authLoginUser } = authLoginOperations
     const handleVisibility = () => {
         setVisibility(!visibility)
     }
@@ -33,7 +33,7 @@ const SignIn = () => {
         });
     const onSubmit = async (data) => {
         try {
-            // await dispatch(authLoginUser(data))
+            await dispatch(authLoginUser(data))
             router.push('/')
             console.log(data)
         } catch (e) {

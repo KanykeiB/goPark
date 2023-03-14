@@ -34,6 +34,7 @@ const AUTH_REGISTER ={
 }
 
 const AUTH_LOGOUT='AUTH_LOGOUT'
+const FILTER_EVENT = 'FILTER_EVENT'
 
 
 export {
@@ -43,5 +44,6 @@ export {
     AUTH_LOGIN,
     AUTH_REGISTER,
     AUTH_LOGOUT,
-    GET_USER
+    GET_USER,
+    FILTER_EVENT 
 }

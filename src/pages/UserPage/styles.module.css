@@ -5,7 +5,7 @@
     margin: 30px auto;
     text-align: left;
     padding: 60px;
-    color:azure;
+    color: var(--default-color); 
     font-size: 64px;
     border: 4px solid #e85d04;
 }
@@ -15,7 +15,7 @@
     margin: 30px auto;
     text-align: left;
     padding: 60px;
-    color:azure;
+    color: var(--default-color); 
     font-size: 64px;
     text-align: center;
 }

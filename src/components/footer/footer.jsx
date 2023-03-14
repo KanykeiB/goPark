@@ -16,11 +16,11 @@ const Footer = () => {
               <a className='social-links email-icon' href="/"></a>
             </div>
           <div className="page-navigations">
-              <Link className='page-links' to="/about">{t("about")}</Link>
-              <Link className='page-links' to="/news">{t("news")}</Link>
-              <Link className='page-links' to="/contact">{t("contact")}</Link>
+              <a className='page-links' href="/about">{t("about")}</a>
+              <a className='page-links' href="/news">{t("news")}</a>
+              <a className='page-links' href="/contact">{t("contact")}</a>
             </div>
-          <a href="/" className="head-icon-for-footer"></a>
+          <Link to="/" className="head-icon-for-footer"></Link>
           <span className="footer-description">
             {t("organization")}
           </span>

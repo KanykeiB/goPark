@@ -4,7 +4,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
-    color: #FFFFFF;
+    color: var(--default-color); 
 }
 
 .example-mail {
@@ -15,7 +15,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
-    color: #FFFFFF;
+    color: var(--default-color); 
 }
 
 .example-mail:hover {

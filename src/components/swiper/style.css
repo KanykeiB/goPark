@@ -1,5 +1,5 @@
 .partners-block-wrap {
-    background: #3A3A3A;
+    background: var(--default-back);
     padding-bottom: 100px;
     margin-top: 100px;
 }
@@ -13,7 +13,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 37px;
-    color: white;
+    color: var(--default-color);
 }
 
 .partner-line {
@@ -26,8 +26,7 @@
 .swiper-block {
     width: 295px;
     height: 340px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    background: #FCEEDE;
     border-radius: 20px;
     border: 1px solid gray;
     padding: 0px 10px;

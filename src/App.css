@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600&family=Oswald&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
-body {
-    background-color: #3A3A3A;
-}
+
 .container {
     width: 1240px;
     margin: 0 auto;
-    padding: 0;
 }

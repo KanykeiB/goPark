@@ -12,7 +12,7 @@
     font-size: 40px;
     line-height: 49px;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--default-color); 
     cursor: pointer;
     transition: all 200ms ease-in-out;
 }

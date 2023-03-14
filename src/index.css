@@ -7,3 +7,37 @@
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
+
+:root {
+    --ligth: #FCEEDE;;
+    --black: #7B7B7B;
+    --default-back: var(#{--ligth});
+   
+    --lightSvg: url(./shared/icons/Logo_white.svg) center center/cover no-repeat;
+    --darkSvg: url(./shared/icons/Logo_black.svg) center center/cover no-repeat;
+
+    --lightArrow: url(./shared/icons/down_white.png) center center/cover no-repeat;
+    --darkArrow: url(./shared/icons/down.svg) center center/cover no-repeat;
+
+    --lightShop: url(./shared/icons/Shop_white.svg) center center/cover no-repeat;
+    --darkShop: url(./shared/icons/Shop.svg) center center/cover no-repeat;
+
+    --lightLanguage: url(./shared/icons/language_white.svg) center center/cover no-repeat;
+    --darkLanguage: url(./shared/icons/language.svg) center center/cover no-repeat;
+    
+
+    --white-text: white;
+    --black-text: black;
+    --default-color: var(#{--black-text});
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body {
+    background-color: var(--default-back);
+}

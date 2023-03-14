@@ -5,9 +5,10 @@
     background: rgba(0, 0, 0, 0);
 }
 
+
 .logo-img {
     display: block;
-    background: url(../../shared/icons/Logo_white.svg) center center/cover no-repeat;
+    background: var(--default-svg);
     width: 53px;
     height: 47px;    
 }
@@ -25,7 +26,7 @@
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--default-color); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,11 +41,12 @@
 
 .down-icon {
     margin-left: 16px;
-    background: url(../../shared/icons/down_white.png) center center/cover no-repeat;
+    background: var(--default-arrow);
     width: 12px;
     height: 6px;
-    color: #FFFFFF;
+    color: var(--default-color);
 }
+
 
 .login-button {
     display: flex;
@@ -56,9 +58,12 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
+}
+.login-button-none{
+    display: none;
 }
 
 .login-button:hover {
@@ -75,14 +80,14 @@
 }
 
 .shop-icon {
-    background: url(../../shared/icons/Shop_white.svg) center center/cover no-repeat;
+    background: var(--default-shop);
     width: 22px;
     height: 26px;
     margin-right: 24px;
 }
 
 .language-icon {
-    background: url(../../shared/icons/language_white.svg) center center/cover no-repeat;
+    background: var(--default-language);
     width: 27px;
     height: 26px;
     margin-right: 24px;
@@ -125,6 +130,9 @@
     border-radius: 10px;
 }
 
+.toggle-wrap {
+    padding-right: 15px;
+}
 .theme-icon {
     background: url(../../shared/icons/theme_white.svg) center center/cover no-repeat;
     width: 27px;

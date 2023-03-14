@@ -4,7 +4,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 37px;
-    color: #fff;
+    color: var(--default-color); 
     border-left: 3px solid #EF9637;
     padding-left: 10px;
 }
@@ -31,7 +31,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 37px;
-    color: #fff;
+    color: var(--default-color); 
 }
 
 .card-text {
@@ -41,7 +41,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #fff;
+    color: var(--default-color); 
 }
 
 .card-price {
@@ -51,7 +51,7 @@
     font-weight: 600;
     font-size: 25px;
     line-height: 30px;
-    color: #fff;
+    color: var(--default-color); 
 }
 
 .card-img-first {
@@ -89,7 +89,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: var(--default-color); 
     border: none;
     border-radius: 10px;
     margin: 25px 17px 0 0;
@@ -104,7 +104,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: var(--default-color); 
     border: none;
     border-radius: 10px;
     margin: 25px 17px 0 0;
