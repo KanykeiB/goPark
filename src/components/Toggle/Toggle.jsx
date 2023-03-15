@@ -23,12 +23,9 @@ const Toggle = () => {
   return (
     <div className="toggle">
         <div className="test">
-        <Moon onClick={() => handleClick()}/>
         <Sun onClick={() => handleClick()}/>
-        {/* <Moon onClick={() => handleClick(false)}/> */}
-        {/* <Sun onClick={() => handleClick(true)}/> */}
-        <div className={theme ? "t-button" : 'r-button'} /> 
-            
+        <Moon onClick={() => handleClick()}/>
+        <div className={theme ? "r-button" : 't-button'} /> 
         </div>
     </div>
   )

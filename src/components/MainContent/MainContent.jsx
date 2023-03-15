@@ -62,20 +62,9 @@ const MainContent = () => {
                 return honeylistFiltered
         }
     }
-    //
-    // useEffect(() => {
-    //     dispatch(eventOperation.getEventList())
-
-    //     dispatch(eventOperations.getEventList())
-
-    // }, [])
-    // if (eventLoading) {
-    //     return <EventLoaderPage/>
-    // }
 
     return (
         <div>
-            {/*// {event.map((item) => (*/}
             <div className={styles.content_block}>
                 <h1 className={styles.main_title}>{t("upcoming")}</h1>
                 <div className={styles.main_content}>

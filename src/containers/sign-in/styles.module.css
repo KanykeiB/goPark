@@ -17,13 +17,14 @@
     font-size: 36px;
     text-align: left;
     margin: 30px;
+    border: none;
 }
 
 .containerLabel {
     font-weight: 700;
     font-size: 30px;
     line-height: 37px;
-    color: #FFFFFF;
+    color: var(--default-color);
 }
 
 .submitButton {
@@ -37,19 +38,13 @@
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--default-color);
 }
 
 .cancelButton a {
-    color: #FFFFFF;
+    color: var(--default-color);
 }
 
-/* .containerLabel  span{
-    font-size: 42px;
-    font-style: italic;
-    font-family: cursive;
-    color:#b9580d;
-} */
 .passwordWrap {
     position: relative
 }
